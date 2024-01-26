@@ -32,6 +32,6 @@ The availability of WebQA 1.0 has contributed significantly to research into cro
 
 - Flow chart
 
-<img src="Title_ Anatomy of a Large-Scale Hypertextual Web Search Engine(Lawrence, 1998) - Keyword Matching Based Retrieval Model.png" alt="Flow chart">
+<img src="data.png" alt="Flow chart">
 
 Source:Whimsical
