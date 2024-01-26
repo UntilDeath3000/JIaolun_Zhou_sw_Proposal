@@ -23,6 +23,6 @@ These scripts often allow for customization based on the specific requirements o
 Source:Whimsical
 - Flow chart
 
-<img src="dataP" alt="Flow chart">
+<img src="dataP.png" alt="Flow chart">
 
 Source:Whimsical
