@@ -29,3 +29,9 @@ The availability of WebQA 1.0 has contributed significantly to research into cro
 5. **Domain Adaptability**: If the dataset spans multiple subject areas, the model can better generalize across domains, improving its performance on unseen topics.
 
 6. **Enhanced Semantic Understanding**: By processing a vast number of QA pairs, the model must learn to identify and comprehend the implicit meanings and intentions behind sentences, thereby enhancing its semantic parsing abilities and natural language understanding.
+
+- Flow chart
+
+<img src="Title_ Anatomy of a Large-Scale Hypertextual Web Search Engine(Lawrence, 1998) - Keyword Matching Based Retrieval Model.png" alt="Flow chart">
+
+Source:Whimsical
