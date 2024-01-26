@@ -13,6 +13,12 @@ The authors describe their approach to developing the Google search engine proto
 The paper provides an in-depth description of the Google search engine prototype, including its architecture, algorithms, and data structures. The authors demonstrate that the system is capable of efficiently crawling and indexing massive amounts of data while producing high-quality search results.
 - Intellectual Merits/Practical Impacts:
 The paper represents an important contribution to the field of search engine development, particularly in terms of its focus on leveraging the structure present in hypertext to improve search quality. The authors' approach has significant practical implications for organizations seeking to develop large-scale search engines, and their work has helped to push the field forward in terms of understanding and advancing search engine technology. Additionally, the authors' emphasis on open-source development and collaboration has helped to promote transparency and accountability in the field.
+
+- Flow chart
+
+<img src="Title_ Anatomy of a Large-Scale Hypertextual Web Search Engine(Lawrence, 1998) - Keyword Matching Based Retrieval Model.png" alt="Flow chart">
+
+Source:Whimsical
 #### Title:Distributed Representations of Words and Phrases and their Compositionality(Tomas, 2013) - Semantic Similarity Based Retrieval Model 
 - Background/Motivation:
 The paper presents an extension of the continuous Skip-gram model, which is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships. The authors aim to improve both the quality of the vectors and the training speed through several extensions, including subsampling of frequent words, negative sampling, and finding phrases in text.
@@ -26,6 +32,12 @@ The authors propose several extensions to the continuous Skip-gram model, includ
 The authors report improved performance on the analogical reasoning task when using negative sampling compared to the hierarchical softmax and noise contrastive estimation. They also demonstrate that subsampling of frequent words significantly improves training speed and makes the word representations more accurate. Additionally, they show that learning good vector representations for millions of phrases is possible through the identification of phrases in text.
 - Intellectual Merits/Practical Impacts:
 The proposed extensions to the continuous Skip-gram model have significant intellectual merit as they improve the quality of the vector representations obtained through the model, as well as the training speed. These improvements make the model more practical for real-world applications in natural language processing. The ability to learn high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships can lead to improved performance in tasks such as information retrieval, machine translation, sentiment analysis, and speech recognition. Overall, the proposed extensions have the potential to advance the field of natural language processing and improve the performance of downstream applications.
+
+- Flow chart
+
+<img src="Article_2.png" alt="Flow chart">
+
+Source:Whimsical
 ## Research Idea: Comparing the Accuracy and Efficiency of Keyword Matching Based Retrieval Model and Semantic Similarity Based Retrieval Model by Building Intellectual Question Answering Models
 - Background/Motivation:
 The popular language models in the market today are mainly based on Keyword Matching Based Retrieval Model and Semantic Similarity Based Retrieval Model.However, the keyword retrieval model is less accurate than Semantic Similarity Based Retrieval Model and Semantic Similarity Based Retrieval Model requires more data than Keyword Retrieval Model. This difference determines that training an accurate language model with a limited dataset has different possibilities in different approaches. The aim of this paper is to compare the accuracy and efficiency of intelligent Q&A models trained by these two different approaches with prioritized datasets.
@@ -42,29 +54,26 @@ This work contributes to the development of intelligent question answering syste
 
 - Flow chart
 
-<img src="Research idea.png" alt="Flow chart">
+<img src="Research_idea.png" alt="Flow chart">
 
 Source:Whimsical
 
 ```
-@article{hong2021xgboost,
-  title={XGBoost-based prediction modelling and analysis for health literacy assessment},
-  author={Hong, Yan and Zhang, Xiaoda and Chen, Jinxiang},
-  journal={International Journal of Modelling, Identification and Control},
-  volume={39},
-  number={3},
-  pages={229--235},
-  year={2021},
-  publisher={Inderscience Publishers (IEL)}
+@article{mikolov2013distributed,
+  title={Distributed representations of words and phrases and their compositionality},
+  author={Mikolov, Tomas and Sutskever, Ilya and Chen, Kai and Corrado, Greg S and Dean, Jeff},
+  journal={Advances in neural information processing systems},
+  volume={26},
+  year={2013}
 }
-@article{davagdorj2020xgboost,
-  title={XGBoost-based framework for smoking-induced noncommunicable disease prediction},
-  author={Davagdorj, Khishigsuren and Pham, Van Huy and Theera-Umpon, Nipon and Ryu, Keun Ho},
-  journal={International journal of environmental research and public health},
-  volume={17},
-  number={18},
-  pages={6513},
-  year={2020},
-  publisher={MDPI}
+@article{brin1998anatomy,
+  title={The anatomy of a large-scale hypertextual web search engine},
+  author={Brin, Sergey and Page, Lawrence},
+  journal={Computer networks and ISDN systems},
+  volume={30},
+  number={1-7},
+  pages={107--117},
+  year={1998},
+  publisher={Elsevier}
 }
 ```
