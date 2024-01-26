@@ -15,3 +15,9 @@ The removal of deactivated words helps to refine the vocabulary space and reduce
 Customization for Task-Specific Needs:
 
 These scripts often allow for customization based on the specific requirements of the QA task at hand. They can adapt to different types of questions and tailor the preprocessing steps accordingly, ensuring that the model learns from high-quality, domain-specific training data.
+
+- Flow chart
+
+<img src="data_process.png" alt="Flow chart">
+
+Source:Whimsical
